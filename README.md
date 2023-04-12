@@ -1,1 +1,1 @@
-# Projetos
+# Projetos do curso Discover rocketseat
