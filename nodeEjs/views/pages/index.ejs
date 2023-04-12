@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<%- include('../partials/head'); %>
+<body class="container">
+    <%- include('../partials/header'); %><!-- precisa passar o objeto para todas as páginas -->
+       <main>
+        <div class="btn-group dropdown-toggle dropdown-toggle-split">
+            <h1>Node com EJS</h1>
+            <p>Vamos aprender a trabalhar com arquivos EJS!</p>
+        </div>
+        <div class="btn-group dropdown-toggle dropdown-toggle-split">
+            <p><%= subtitle %></p>
+        </div>
+
+
+        <ul>
+            <% qualitys.forEach(function(quality){ %> <!-- abre e fecha com EJS -->
+                <li>
+                    <strong><%= quality.title %></strong> <%= quality.Message %> <!-- porque a li precisa estar separada para funcionar  -->
+                </li>
+            <% }) %> <!-- abre e fecha com EJS -->
+            
+        </ul>
+
+    </main>
+    <%- include('../partials/footer'); %>
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+    "Nome": "Anderson Mattar",
+    "Cidade": "São João Del Rei",
+    "Telefone": 320544125231,
+    "Livros_Favoritos":[
+        "Inteligência Emocional",
+        "O Homem Mais Inteigente da História",
+        "Analisando a inteligência de Cristo"
+    ],
+    "Hobbies": {
+        "Semana": "Video Game",
+        "Fim_de_semana": {
+            "Sabado": "VolleyBall",
+            "Domingo": "Cinema",
+            "Feriados": "Series",
+            "Outros": [
+                "Nadar",
+                "Bike",
+                "Praia",
+                "Netflix" 
+            ]
+        }
+    }
+     
+
+
+}

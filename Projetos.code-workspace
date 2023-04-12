@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Projeto",
+		"files.watcherExclude": {
+			"**/target": true
+		}
+	}
+}

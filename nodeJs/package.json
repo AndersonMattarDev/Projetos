@@ -1,0 +1,19 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "learning",
+    "nodejs",
+    "main"
+  ],
+  "author": "Anderson Mattar",
+  "license": "ALL",
+  "dependencies": {
+    "cfonts": "^3.1.1"
+  }
+}
