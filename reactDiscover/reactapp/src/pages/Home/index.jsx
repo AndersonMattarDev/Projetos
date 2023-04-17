@@ -1,11 +1,12 @@
-import React, { useState } from 'react'; //Importando estado do react
+import React, { useState, useEffect } from 'react'; //Importando estado do react
 
 import './style.css'
 import { Card } from '../../components/Card'
 
 export function Home() {
   const [studentName, setStudentName] = useState(''); //Criando um estado
-  const [students, setStudents] = useState([])
+  const [students, setStudents] = useState([]);
+  const [user, setUser] = useState({name: '', avatar: ''});
 
   function handleAddStudent(){
     const newStudent = {
@@ -19,8 +20,33 @@ export function Home() {
 
     setStudents(prevState => [...prevState, newStudent]);
 }
+//Corpo do useEffect
+/*useEffect(() => {
+fetch('https://api.github.com/users/Andersonmattardev') //consumindo api com useEffect
+.then(response => response.json())
+.then(data => {
+setUser({
+  name: data.name,
+  avatar: data.avatar_url,
 
+})
+})
+} , [students]); */
 
+// usando async no useEffect não dá para usar direto, procisa criar a função
+useEffect(() =>{
+  async function fetchData() {
+    const response = await fetch('https://api.github.com/users/Andersonmattardev')
+    const data = await response.json();
+    setUser({
+      name: data.name,
+      avatar: data.avatar_url,
+    });
+  }
+
+  fetchData();
+
+}, []);
   
   return (
     //<></> Essas tags de abertura e fechamento são necessarias para embrulhar os elementos pois o jsx nao aceita mais de um elemento
@@ -29,8 +55,8 @@ export function Home() {
    <header>
    <h1>Lista de Presença</h1>
    <div>
-    <strong>Anderson Mattar</strong>
-    <img src="https://avatars.githubusercontent.com/u/119048066?s=96&v=4"  alt="" />
+    <strong>{user.name}</strong>
+    <img src= {user.avatar}  alt="" />
    </div>
    </header>
    
