@@ -26,7 +26,14 @@ export function Home() {
     //<></> Essas tags de abertura e fechamento são necessarias para embrulhar os elementos pois o jsx nao aceita mais de um elemento
     // <div><div/> Ou poderia embrulhar em uma div
     <div className="container"> 
+   <header>
    <h1>Lista de Presença</h1>
+   <div>
+    <strong>Anderson Mattar</strong>
+    <img src="https://avatars.githubusercontent.com/u/119048066?s=96&v=4"  alt="" />
+   </div>
+   </header>
+   
    <input 
    type="text" 
    placeholder="Digite o Nome..."
