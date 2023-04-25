@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'; //Importando estado do react
+import { useState, useEffect } from 'react'; //Importando estado do react
 
 import './style.css'
 import { Card } from '../../components/Card'
