@@ -1,12 +1,23 @@
 import { useState, useEffect } from 'react'; //Importando estado do react
 
 import './style.css'
-import { Card } from '../../components/Card'
+//abaixo a importação do componente tipado CardProps
+import { Card, CardProps } from '../../components/Card'
+
+type Profileresponse = {
+  name: string;
+  avatar_url: string;
+}
+
+type User = {
+  name: string;
+  avatar: string;
+}
 
 export function Home() {
   const [studentName, setStudentName] = useState(''); //Criando um estado
-  const [students, setStudents] = useState([]);
-  const [user, setUser] = useState({name: '', avatar: ''});
+  const [students, setStudents] = useState<CardProps[]>([]);//uso do tipo importado CardProps e como ele afeta mais de um elemento usa o colchete
+    const [user, setUser] = useState<User>({} as User);
 
   function handleAddStudent(){
     const newStudent = {
@@ -37,7 +48,8 @@ setUser({
 useEffect(() =>{
   async function fetchData() {
     const response = await fetch('https://api.github.com/users/Andersonmattardev')
-    const data = await response.json();
+    const data = await response.json() as Profileresponse;
+    
     setUser({
       name: data.name,
       avatar: data.avatar_url,
