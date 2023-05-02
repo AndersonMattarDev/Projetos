@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation</title>
+    <style>
+        .ball {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            background-color: rgb(240, 6, 6);
+            position: relative;
+            /*aqui passo a animação e seus parametros para o objeto*/
+            animation-name: example-two;
+            /*Precisa ter pelo menos dois parametros para a animation funcionar*/
+            animation-duration: 2s;
+            animation-delay: 2s;
+            animation-iteration-count: 2;
+            animation-direction: alternate-reverse;
+
+        }
+        /*abaixo se cria a animação ou seja os detalhes dela*/
+        @keyframes example-one {
+            /*onde começa a animação*/
+            from{
+                background-color: rgb(12, 205, 249);
+
+            }
+            /*mostra pra onde a animação tem que ir*/
+            to{
+                background-color: rosybrown;
+            }
+
+        }
+
+        @keyframes example-two {
+            /*Usando porcentagem para iniciar e terminar um*/
+            0% {
+                background-color: black;
+                left: 0;
+                top: 0;            }
+
+            25% {
+                background-color: gold;
+                left: 600px;
+                top: 0;
+            }
+
+            50% {
+                background-color: springgreen;
+                left: 600px;
+                top: 500px;
+            }
+
+            75% {
+                background-color: sandybrown;
+                left: 0px;
+                top: 500px;
+            }
+
+            100% {
+                background-color: red;
+                left:0;
+                top: 0;
+            }
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="ball"></div>
+</body>
+</html>
