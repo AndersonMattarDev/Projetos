@@ -2,19 +2,34 @@
   text-align: center;
 }
 
-.App-header {
+.App-title {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: calc(20px + 4vmin);
-  color: white;
+  color: rgb(227, 215, 241);
 }
 
-.App-link {
-  color: #61dafb;
+.App-logo {
+  display: flex;
+ 
+  margin-top: 10vh;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: calc(20px + 4vmin);
+
 }
-
-
+.App-image {
+  display: flex;
+  border-radius: 100%;
+  min-height: 100vh;
+}
