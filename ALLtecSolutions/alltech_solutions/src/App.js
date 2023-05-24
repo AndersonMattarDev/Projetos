@@ -1,6 +1,8 @@
 
 import './App.css';
 import Contato from './Components/Contato';
+import Card from './Components/Card';
+import Foto from './Components/imgs/Eu.jpeg';
 
 function App() {
 const saudação = 'seja bem vindo!' 
@@ -11,6 +13,13 @@ const saudação = 'seja bem vindo!'
       <div>
       < Contato />
       </div>
+
+      <Card 
+      nome="Anderson Mattar" 
+      idade="46" 
+      profissao="Programador" 
+      foto={Foto}
+      />
           
       <header className="App-header">
 
