@@ -1,7 +1,7 @@
 
 import './App.css';
 import Card from './Components/Card';
-import Foto from './Components/imgs/Eu.jpeg';
+
 
 function App() {
   
@@ -12,14 +12,15 @@ function App() {
       
 
 
-      <header className="header">
+      <header className="Header">
         
-      <Card nome="Anderson Mattar" idade="46" profissao="Programador Junior" foto={Foto} />
+      <Card />
 
         <nav>
           <ul className="Menu">
             <li>Contatos</li>
             <li>Loja</li>
+            <li>Sobre</li>
           </ul>
         </nav>
 

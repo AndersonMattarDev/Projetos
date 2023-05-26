@@ -1,16 +1,12 @@
-.card-img{
-    border-radius: 100%;
-    width: 90px;
-    height: 100px;
-}
-
-.card-todo{
-    border-radius: 100%;
-    display: inline-block;
-    font-size: 1.2rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.Card {
+    border-radius:70%;
+    display: flexbox;
+    font-size: 0.5rem;
     color: aliceblue;
-    background-color: #282c34;
-    width: 60vh;
-    height: 60vh;
+    background-image: url("./imgs/alltecvideo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    width: 130px;
+    height: 130px;
 }
