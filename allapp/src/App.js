@@ -1,19 +1,18 @@
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import './App.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pags/Home';
 import Sobre from './pags/Sobre';
 import Contato from './pags/Contato';
 import Lojas from './pags/Lojas';
+import Navbar from './components/layout/Navbar';
+import Footer from './components/layout/Footer';
 
 function App() {
   return (
     <Router>
-      <ul className='menu'>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/sobre">Sobre</Link></li>
-        <li><Link to="/contato">Contato</Link></li>
-        <li><Link to="/lojas">Lojas</Link></li>
-      </ul>
+      
+      <Navbar />
+      
+      
       <Switch>
         <Route exact path="/">
           <Home />
@@ -31,6 +30,7 @@ function App() {
           <Lojas />
         </Route>
       </Switch>
+      <Footer />
     </Router>
   );
 }

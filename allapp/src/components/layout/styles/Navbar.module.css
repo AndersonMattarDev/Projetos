@@ -1,0 +1,15 @@
+
+.list{
+  
+    font-size: 20px;
+    margin-left: 160vh;
+    justify-content: space-between;
+    background-color: lightslategray;
+    display: flex;
+    list-style: none;
+    height: 5vh;
+}
+
+.item{
+     margin-right: 1em;
+}
