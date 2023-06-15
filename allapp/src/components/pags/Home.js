@@ -4,9 +4,9 @@ import styles from './Home.module.css';
 function Home() {
     return(
         <div className={styles.conteudo}>
-            <h1>Home</h1>
+            <h1>Alltech-Site Portfólio</h1>
             <div>
-                <img src={imagem} alt="imagem" />
+                <img src={imagem} alt="imagem"  className={styles.imagem} />
             </div>
             <p>Conteúdo</p>
         </div>
