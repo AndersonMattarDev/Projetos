@@ -1,15 +1,38 @@
 
-.list{
-  
-    font-size: 20px;
-    margin-left: 160vh;
-    justify-content: space-between;
-    background-color: lightslategray;
+.navbar{
+    background-color: #222;
     display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.list{
+    display: flex;
+    margin-right: 10px;
+    margin-left: 5px;
     list-style: none;
-    height: 5vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    align-items: center;
 }
 
 .item{
-     margin-right: 1em;
+    margin-right: 1em;
+    font-size: 1.2em;
+   
+}
+
+.item a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.item a:hover{
+    color: #ffbb44;
 }

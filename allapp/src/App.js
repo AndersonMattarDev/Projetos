@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from './pags/Home';
-import Sobre from './pags/Sobre';
-import Contato from './pags/Contato';
-import Lojas from './pags/Lojas';
+import Home from './components/pags/Home';
+import Sobre from './components/pags/Sobre';
+import Contato from './components/pags/Contato';
+import Lojas from './components/pags/Lojas';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 
@@ -18,15 +18,15 @@ function App() {
           <Home />
         </Route>
 
-        <Route path="/sobre">
+        <Route exact path="/sobre">
           <Sobre />
         </Route>
 
-        <Route path="/contato">
+        <Route exact path="/contato">
           <Contato />
         </Route>
 
-        <Route path="/lojas">
+        <Route exact path="/lojas">
           <Lojas />
         </Route>
       </Switch>
