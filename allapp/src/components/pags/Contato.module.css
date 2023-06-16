@@ -1,12 +1,10 @@
 .conteudo {
     display: flexbox;
     background-color: rgb(216, 218, 219);
-    width: 100%;
-    height: 100vh;
     margin: 0;
-    
+    height: 90vh;
 }
-.mail {
+.conteudo a {
     display: flex;
     text-decoration: none;
     list-style: none;
@@ -14,16 +12,10 @@
     margin-bottom: 20px;
 }
 
-.link {
-    display: flex;
-    text-decoration: none;
-    list-style: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-bottom: 20px;
+.conteudo a span {
+    font-size: 1.5em;
+    color: #222;
+    padding: 0 0.2em;
+   
 }
 
-.fone {
-    display: flex;
-    text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}

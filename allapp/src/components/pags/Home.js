@@ -2,14 +2,21 @@ import imagem from '../layout/img/imgHome.jpg'
 import styles from './Home.module.css';
 
 function Home() {
-    return(
-        <div className={styles.conteudo}>
-            <h1>Alltech-Site Portfólio</h1>
-            <div>
-                <img src={imagem} alt="imagem"  className={styles.imagem} />
-            </div>
-            <p>Conteúdo</p>
-        </div>
+    return (
+        
+            <section className={styles.home_container}>
+            <h1>Alltech-Site <span> Portfólio</span></h1>
+                <p>Site criado por Anderson Moreno Mattar, com ReacJs para servir de portfólio,
+                    e mostrar habilidade em desenvolvimento web!
+                </p>
+                <div>
+                <img src={imagem} alt="imagem" />
+            </div>            
+            </section>
+            
+            
+
+        
 
     )
 };
