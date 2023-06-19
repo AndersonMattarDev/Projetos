@@ -1,5 +1,6 @@
-import { Link } from 'react-router-dom/cjs/react-router-dom.min';
-import styles from './styles/LinkButton.module.css'
+
+import { Link } from 'react-router-dom';
+import styles from './styles/LinkButton.module.css';
 
 function LinkButton({ to, text }) {
     return(

@@ -5,6 +5,7 @@ import Contato from './components/pags/Contato';
 import Lojas from './components/pags/Lojas';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
+import Message from './components/pags/Message';
 
 function App() {
   return (
@@ -28,6 +29,10 @@ function App() {
 
         <Route exact path="/lojas">
           <Lojas />
+        </Route>
+
+        <Route exact path="/message">
+          <Message />
         </Route>
       </Switch>
       <Footer />

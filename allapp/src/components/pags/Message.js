@@ -1,7 +1,7 @@
-import MesageForm from '../../components/Mensagens/MesageForm'
-import styles from "./Mensagem.module.css"
+import MesageForm from '../Mensagens/MesageForm'
+import styles from "./Message.module.css"
 
-function Contact(){
+function Message(){
     return(
      <div className={styles.contact_container}>
         <h1>Envie uma mensagem</h1>
@@ -11,4 +11,4 @@ function Contact(){
     )
 }
 
-export default Contact;
+export default Message;
