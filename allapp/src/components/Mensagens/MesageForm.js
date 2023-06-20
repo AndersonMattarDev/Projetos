@@ -1,17 +1,34 @@
-function MesageForm(){
-    return(
-        <form>
-            <div>
-            <input type="text" placeholder="digite seu nome!" />
-            </div>
+import Input from '../Form/Input'
+import SubmitButton from '../Form/SubmitButton'
+import styles from './Message.module.css';
 
-            <div>
-            <input type="text" placeholder="digite sua mensagem!" />
-            </div>
+function MesageForm({btnText}){
+    return(
+        <form className={styles.form}>
             
-            <div>
-                <input type="submit" value="Enviar" />
-            </div>
+            <Input
+            type="text" 
+            text="Nome" 
+            name="nome" 
+            placeholder="Digite seu nome aqui!"
+            />
+
+<Input
+            type="text" 
+            text="Mensagem" 
+            name="nome" 
+            placeholder="Digite sua mensagem!"
+            />
+
+<Input
+            type="text" 
+            text="Contato" 
+            name="nome" 
+            placeholder="Digite seu e-mail!"
+            />
+            
+            <SubmitButton text={btnText}  />
+            
             
         </form>
     )
