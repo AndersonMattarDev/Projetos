@@ -1,9 +1,11 @@
-import Input from '../Form/Input'
-import SubmitButton from '../Form/SubmitButton'
+import Textarea from '../Form/Textarea';
+import Input from '../Form/Input';
+import SubmitButton from '../Form/SubmitButton';
 import styles from './Message.module.css';
 
 function MesageForm({btnText}){
-    return(
+
+      return(
         <form className={styles.form}>
             
             <Input
@@ -11,20 +13,23 @@ function MesageForm({btnText}){
             text="Nome" 
             name="nome" 
             placeholder="Digite seu nome aqui!"
+            required
             />
 
-<Input
+            <Textarea
             type="text" 
             text="Mensagem" 
             name="nome" 
             placeholder="Digite sua mensagem!"
+            required
             />
 
 <Input
-            type="text" 
+            type="email" 
             text="Contato" 
             name="nome" 
             placeholder="Digite seu e-mail!"
+            required
             />
             
             <SubmitButton text={btnText}  />

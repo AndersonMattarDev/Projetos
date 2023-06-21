@@ -1,7 +1,8 @@
 import imagem from '../layout/img/imgHome.jpg'
+import imagem2 from '../layout/img/sistema-html-para-o-conceito-de-sites.jpg'
 import styles from './Home.module.css';
 
-function Home() {
+function Home() { 
     return (
         
             <section className={styles.home_container}>
@@ -11,6 +12,7 @@ function Home() {
                 </p>
                 <div>
                 <img src={imagem} alt="imagem" />
+                <img src={imagem2} alt="imagem" />
             </div>            
             </section>
             
