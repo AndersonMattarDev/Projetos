@@ -13,7 +13,7 @@ function Contato() {
             <a href="https://www.facebook.com/profile.php?id=100088499396412"><span><FaFacebook /></span>  Facebook</a>
             <a href="https://www.instagram.com/mattarandersonmoreno/"><span><FaInstagram /></span>Instagram</a>
 
-               <section>
+            <section>
                <LinkButton to="/message" text="Enviar Mensagem" />
                </section>
 
