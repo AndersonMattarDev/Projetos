@@ -2,3 +2,17 @@
     width: 100%;
     margin: 2em 0;
 }
+
+.form p {
+    width: 100%;
+    padding: 1em;
+    border: 1px solid #000;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2em;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #0f4d02;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}

@@ -9,7 +9,9 @@ function Message() {
         <h1>Envie uma mensagem</h1>
         <p>Sua opinião é muito importante para nós</p>
         <MesageForm btnText="Enviar contato" />
-     </div>
+
+        
+    </div>
     )
 }
 

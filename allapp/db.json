@@ -5,12 +5,6 @@
       "nome": "Nome do usuário",
       "mensagem": "Mensagens do usuário",
       "email": "Email do usuário"
-    },
-    {
-      "nome": "Anderson Moreno Mattar",
-      "mensagem": "Estou testando o envio de dados para a API!",
-      "email": "andmat7745@gmail.com",
-      "id": 2
     }
   ]
 }

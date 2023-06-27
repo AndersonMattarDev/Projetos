@@ -9,9 +9,21 @@
 }
 
 .home_container img {
-    width: 350px;
+    width: 200px;
     margin: 2em 0;
-    border-radius: 100%;
+    border-radius: 25%;
+    
+}
+
+.home_container li {
+    list-style: none;
+    margin-right: 4em;
+    justify-content: space-between;
+}
+
+.home_container ul {
+    display: flex;
+    justify-content: space-between;
     
 }
 
@@ -24,5 +36,16 @@
     color: #ffbb44;
     padding: 0 0.2em;
     background-color: #222;
+}
+
+.home_container p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    border: #222;
+    border-radius: 15px;
+    background-color: #222;
+    color: aliceblue;
+    padding: 0 1em;
+    
 }
 
