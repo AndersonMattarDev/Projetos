@@ -1,5 +1,6 @@
 .conteudo {
-    background-color: rgb(216, 218, 219);
-    width: 100%;
-    height: 100vh;
+   background-color: rgb(216, 218, 219);
+   margin: 0 auto;
+   margin-top: 80px;
+   height: 90vh;
 }

@@ -1,31 +1,40 @@
 .Footer {
     background-color: #222;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
     text-align: center;
     color: white;
     padding: 0.5em;
+    top: 0;
+    left: 0;
+    height: 40px;
+    border: solid;
+    border-color: rgb(216, 218, 219);
+    border-radius: 15px;
 }
 
-.social_list{
+.Footer ul{
    display: flex;
-   justify-content: center;
    list-style: none;
 }
 
-.social_list li{
+.Footer li{
     margin: 0 1em;
+    
 }
 
-.social_list li:hover{
+.Footer li:hover{
     color: #ffbb44;
 }
 .social_list svg {
     font-size: 1.5em;
     cursor: pointer;
 }
-.copy_right{
-    margin-top: 2em;
+.Footer p{
+    margin-left: 20em;
 }
-.copy_right span{
+.Footer p span{
     font-weight: bold;
     color:#ffbb44;
 }

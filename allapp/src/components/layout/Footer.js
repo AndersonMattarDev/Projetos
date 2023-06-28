@@ -4,7 +4,7 @@ import {FaFacebook, FaInstagram, FaLinkedin} from 'react-icons/fa'
 function Footer() {
   return(
     <footer className={styles.Footer}>
-      <ul className={styles.social_list}>
+      <ul>
         <li>
           <FaFacebook />
         </li>
@@ -15,7 +15,7 @@ function Footer() {
           <FaLinkedin />
         </li>
       </ul>
-      <p className={styles.copy_right}><span>Powered by AllTech-Anderson Mattar</span> &copy; 2023</p>
+      <p><span>Powered by AllTech-Anderson Mattar</span> &copy; 2023</p>
     </footer>
   )
 };
