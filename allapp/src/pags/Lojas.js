@@ -4,7 +4,7 @@ function Lojas() {
     return(
         <div className={styles.conteudo}>
             <h1>Lojas</h1>
-            <p>Conteúdo</p>
+            <p>Página em construção!</p>
         </div>
 
     )

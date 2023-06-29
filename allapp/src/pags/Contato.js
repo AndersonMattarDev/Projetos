@@ -1,6 +1,6 @@
 import {FaLinkedin, FaGithubAlt, FaEnvelope, FaMobileAlt, FaFacebook, FaInstagram} from 'react-icons/fa';
 import styles from './Contato.module.css';
-import LinkButton from '../layout/LinkButton'
+import LinkButton from '../components/layout/LinkButton'
 
 function Contato() {
     return(

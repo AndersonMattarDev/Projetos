@@ -1,4 +1,4 @@
-import MesageForm from '../Mensagens/MesageForm';
+import MesageForm from '../components/Mensagens/MesageForm';
 import styles from "./Message.module.css";
 
 function Message() {
