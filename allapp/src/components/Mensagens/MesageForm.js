@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+
 
 
 import Textarea from '../Form/Textarea';
@@ -21,13 +21,8 @@ function MesageForm({ btnText }) {
         e.preventDefault();
 
         try {
-            const response = await axios.post('http://localhost:5000/contatos', {
-                nome,
-                mensagem,
-                email
-            });
-
-            console.log(response.data);
+           
+            console.log({ nome, mensagem, email });
 
 
             setNome('');
@@ -54,7 +49,7 @@ function MesageForm({ btnText }) {
         } //Limpa o timer se o componente for desmontado antes do tempo estabelecido
     }, [successMessage]);
     return (
-        <form onSubmit={handleSubmit} className={styles.form} method="POST" name="contact" action="/succsess" data-netlify="true">
+        <form onSubmit={handleSubmit} className={styles.form} data-netlify="true">
 
             <Input
                 type="text"
