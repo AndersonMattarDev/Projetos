@@ -54,7 +54,7 @@ function MesageForm({ btnText }) {
         } //Limpa o timer se o componente for desmontado antes do tempo estabelecido
     }, [successMessage]);
     return (
-        <form onSubmit={handleSubmit} className={styles.form}>
+        <form onSubmit={handleSubmit} className={styles.form} method="POST" name="contact" action="/succsess" data-netlify="true">
 
             <Input
                 type="text"
