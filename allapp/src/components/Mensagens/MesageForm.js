@@ -49,7 +49,14 @@ function MesageForm({ btnText }) {
         } //Limpa o timer se o componente for desmontado antes do tempo estabelecido
     }, [successMessage]);
     return (
-        <form onSubmit={handleSubmit} className={styles.form} data-netlify="true">
+        <form
+        onSubmit={handleSubmit} 
+        className={styles.form} 
+        name="contact" 
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+        >
+            <input type="hidden" name="form-name" value="contact" />
 
             <Input
                 type="text"
