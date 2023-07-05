@@ -17,7 +17,7 @@ function MesageForm({ btnText }) {
     const [successMessage, setSuccessMessage] = useState('');
 
 
-    const handleSubmit = async (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
 
         try {
@@ -56,7 +56,7 @@ function MesageForm({ btnText }) {
         data-netlify="true"
         data-netlify-honeypot="bot-field"
         >
-            <input type="hidden" name="form-name" value="contact" />
+            
 
             <Input
                 type="text"
@@ -90,6 +90,13 @@ function MesageForm({ btnText }) {
                 required
 
             />
+            
+            <input type="hidden" 
+            name="contato" 
+            value="contact" 
+            />
+   
+
 
             <SubmitButton text={btnText} />
             {successMessage && <p> {successMessage} </p>}
