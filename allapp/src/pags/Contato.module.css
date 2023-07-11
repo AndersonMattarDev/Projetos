@@ -21,4 +21,13 @@
    
 }
 
+@media screen and (max-width: 500px){
+    /* max-width = telas menores que 500px*/
+  .conteudo a span {
+    margin: auto;
+    width: auto;
+  }
+
+  }
+  
 
