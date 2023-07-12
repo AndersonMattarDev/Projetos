@@ -14,15 +14,10 @@ function Contato() {
             <a href="https://www.instagram.com/mattarandersonmoreno/"><span><FaInstagram /></span>Instagram</a>
 
             
-               <LinkButton to="/message" text="Enviar Mensagem" />
-              
+            <LinkButton to="/message" text="Enviar Mensagem" />
+           
 
         </div>
-
-        
-
-
-        
     )
 };
 

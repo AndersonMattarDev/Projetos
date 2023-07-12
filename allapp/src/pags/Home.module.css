@@ -77,13 +77,12 @@
 
 @media screen and (max-width: 500px){
     /* max-width = telas menores que 500px*/
-  .home_container span div p h1 li ul {
+  .home_container {
     margin: auto;
     width: auto;
-  }
+    padding: 5em;
 
-  
+  }
 }
-  
 
 

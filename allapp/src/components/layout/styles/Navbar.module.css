@@ -51,12 +51,27 @@
 @media screen and (max-width: 1000px){
     /* max-width = telas menores que 500px*/
   .navbar {
+    position: fixed;
     margin: auto;
     width: 100%;
   }
 
   .list{
     margin: auto;
+    margin-left: 5px;
     width: auto;
+}
+
+.item{
+    margin-right: .2em;
+    margin-left: .4em;
+    font-size: 1em;
+   
+}
+
+.img{
+    width: 50px;
+    border-radius: 100%;
+    align-items: center;
 }
   }

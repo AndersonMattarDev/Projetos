@@ -3,7 +3,7 @@
     width: 150px;
     height: 20px;
     margin-top: 5em;
-    margin-left: 38em;
+    
     color: #fff;
     padding: 0.7em 1.2em;
     text-decoration: none;
@@ -16,3 +16,11 @@
 .btn:hover {
     color: #ffbb44;
 }
+
+    @media screen and (max-width: 1000px) {
+        .btn {
+            display: block;
+            justify-content: left;
+            margin-bottom: 10em;
+          }
+    }

@@ -3,7 +3,7 @@
     display: flex;
     margin-top: 80px;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 4em;
 }
 .conteudo a {
@@ -11,23 +11,32 @@
     text-decoration: none;
     list-style: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .conteudo a span {
     font-size: 1.5em;
     color: #222;
     padding: 0 0.2em;
-   
 }
 
-@media screen and (max-width: 500px){
-    /* max-width = telas menores que 500px*/
-  .conteudo a span {
-    margin: auto;
-    width: auto;
+
+@media screen and (max-width: 1000px){
+    /* max-width = telas menores que 1000px*/
+  .conteudo {
+    display:flex;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: center;
+    padding: 2em;
   }
 
+  .conteudo a {
+    margin-bottom: 10px;
   }
-  
+
+  .conteudo a span {
+    font-size: 1.2em;
+  }
+}
 

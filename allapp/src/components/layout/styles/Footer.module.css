@@ -44,7 +44,13 @@
 @media screen and (max-width: 1000px){
     /* max-width = telas menores que 500px*/
   .Footer {
+    position: relative;
     margin: auto;
     width: 100%;
+  }
+
+  .Footer p {
+    margin: auto;
+    font-size: smaller;
   }
   }
