@@ -4,6 +4,7 @@
     display: flex;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     align-items: center;
+    margin-top: auto;
     text-align: center;
     color: white;
     padding: 0.5em;
@@ -42,11 +43,16 @@
 }
 
 @media screen and (max-width: 1000px){
-    /* max-width = telas menores que 500px*/
+    /* max-width = telas menores que 1000px*/
   .Footer {
-    position: relative;
-    margin: auto;
-    width: 100%;
+   width: 100%;
+   padding: 20px;
+  }
+
+  .FooterWrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
 
   .Footer p {

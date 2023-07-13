@@ -15,12 +15,11 @@
 
 .btn:hover {
     color: #ffbb44;
-}
+} 
 
     @media screen and (max-width: 1000px) {
         .btn {
             display: block;
             justify-content: left;
-            margin-bottom: 10em;
           }
     }

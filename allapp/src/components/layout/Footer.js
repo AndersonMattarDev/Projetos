@@ -3,7 +3,8 @@ import {FaFacebook, FaInstagram, FaLinkedin} from 'react-icons/fa'
 
 function Footer() {
   return(
-    <footer className={styles.Footer}>
+    <div className={styles.FooterWrapper}>
+      <footer className={styles.Footer}>
       <ul>
         <li>
           <FaFacebook />
@@ -17,6 +18,8 @@ function Footer() {
       </ul>
       <p><span>Powered by AllTech-Anderson Mattar</span> &copy; 2023</p>
     </footer>
+    </div>
+    
   )
 };
 
