@@ -12,3 +12,22 @@
 .btn:hover {
     color: #ffbb44;
 }
+
+@media screen and (max-width: 1000px){
+    /* max-width = telas menores que 1000px*/
+    .btn {
+        background-color: #272525;
+        color: #fff;
+        padding: 0.7em 1.2em;
+        text-decoration: none;
+        transition: .5s;
+        cursor: pointer;
+        align-items: center;
+    
+        border-radius: 5px;
+    }
+    
+    .btn:hover {
+        color: #ffbb44;
+    }
+}

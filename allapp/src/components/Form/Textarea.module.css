@@ -18,3 +18,14 @@
 .form_control input::placeholder{
     color: #7b7b7b;
 }
+
+@media screen and (max-width: 1000px){
+    /* max-width = telas menores que 1000px*/
+    .form_control {
+        display: flex;
+        flex-direction: column;
+        max-width: 250px;
+        margin-right: 20rem;
+        margin-bottom: 1em;
+}
+}

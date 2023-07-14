@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: flex-start;
     padding: 4em;
+    min-height: 100vh;
 }
 .conteudo a {
     display: flex;
@@ -15,7 +16,7 @@
 }
 
 .conteudo a span {
-    font-size: 1.5em;
+    font-size: 2rem;
     color: #222;
     padding: 0 0.2em;
 }

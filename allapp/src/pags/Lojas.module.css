@@ -1,6 +1,46 @@
 .conteudo {
     background-color: rgb(216, 218, 219);
     margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+   
     margin-top: 80px;
-    height: 90vh;
+    min-height: 100vh;
+}
+
+.conteudo h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5rem;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.conteudo img {
+    display: flex;
+    border-radius: 15px;
+    width: 80%;
+    height: 80%;
+    margin-left: 10rem;
+}
+
+@media screen and (max-width: 1000px){
+    /* max-width = telas menores que 1000px*/
+    .conteudo {
+        background-color: rgb(216, 218, 219);
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 80px;
+        min-height: 100vh;
+    }
+
+    .conteudo img {
+        display: flex;
+        border-radius: 15px;
+        width: 80%;
+        height: 80%;
+        margin-left: 2.4rem;
+    }
 }

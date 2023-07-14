@@ -1,10 +1,11 @@
 import styles from './Lojas.module.css';
+import imagem from '../components/layout/img/em_construcao.jpg'
 
 function Lojas() {
     return(
         <div className={styles.conteudo}>
             <h1>Lojas</h1>
-            <p>Página em construção!</p>
+            <img src={imagem} alt='em construção' />
         </div>
 
     )

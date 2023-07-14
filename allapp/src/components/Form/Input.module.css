@@ -19,3 +19,14 @@
     color: #7b7b7b;
 }
 
+@media screen and (max-width: 1000px){
+    /* max-width = telas menores que 1000px*/
+    .form_control {
+        display: flex;
+        margin-right: 20rem;
+        flex-direction: column;
+        max-width: 250px;
+        margin-bottom: 1em;
+}
+}
+
