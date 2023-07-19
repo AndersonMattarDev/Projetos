@@ -6,6 +6,7 @@ import Lojas from './pags/Lojas';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 import Message from './pags/Message';
+import Artesanato from './pags/Lojas/Artesanato';
 
 function App() {
   return (
@@ -33,6 +34,10 @@ function App() {
 
         <Route exact path="/message">
           <Message />
+        </Route>
+
+        <Route exact path="/artesanato">
+          <Artesanato />
         </Route>
       </Switch>
       <Footer />

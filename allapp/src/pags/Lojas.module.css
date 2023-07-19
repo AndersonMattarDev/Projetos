@@ -1,28 +1,32 @@
 .conteudo {
     background-color: rgb(216, 218, 219);
     margin: 0 auto;
-    flex-direction: column;
     align-items: center;
-   
-    margin-top: 80px;
+    display: flex;
     min-height: 100vh;
 }
 
-.conteudo h1 {
+.titulo {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 2.5rem;
     display: flex;
+    flex-wrap: wrap;
     margin-top: 30px;
     margin-bottom: 40px;
     justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
 }
 
-.conteudo img {
+.cards {
     display: flex;
-    border-radius: 15px;
-    width: 80%;
-    height: 80%;
-    margin-left: 10rem;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 10rem;
+    justify-content: center;
 }
 
 @media screen and (max-width: 1000px){

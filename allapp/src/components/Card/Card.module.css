@@ -1,0 +1,115 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin-bottom: .5rem;
+    padding: .5rem;
+    box-shadow: 0 0 5px 0px #e2e2e2;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform .6s ease-in-out;
+  }
+
+  .card img {
+    border-radius: 40px;
+    width: 19rem;
+    height: 12rem;
+  }
+
+/* animação do card */
+  .card:after,
+  .card:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    border-radius: 40px;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: transform .6s ease-in-out;
+    pointer-events: none;
+  }
+
+  .card:before {
+    border-left: 4px solid rgba(80, 75, 231, 0.595);
+    border-right: 3px solid rgba(80, 75, 231, 0.595);
+    transform: scaleY(0);
+  }
+
+  .card:after {
+    border-top: 3px solid rgba(80, 75, 231, 0.595);
+    border-bottom: 8px rgba(80, 75, 231, 0.595);
+    transform: scaleX(0);
+  }
+
+  .card:hover:before{
+    transform: scaleY(1);
+  }
+
+  .card:hover:after{
+    transform: scaleX(1);
+  }
+
+  /* rotação 3d */
+   .card:hover {
+    transform: rotateY(180deg) translateZ(10px);
+    background-color: rgba(80, 75, 231, 0.595);
+    border-radius: 40px;
+   }
+
+   @media screen and (max-width: 1000px){
+    /* max-width = telas menores que 1000px*/
+  .card {
+    display:flex;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: center;
+    padding: 2em;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform .6s ease-in-out;
+  }
+
+  
+/* animação do card */
+.card:after,
+.card:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  border-radius: 40px;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: transform .6s ease-in-out;
+  pointer-events: none;
+}
+
+.card:before {
+  border-left: 4px solid rgba(80, 75, 231, 0.595);
+  border-right: 3px solid rgba(80, 75, 231, 0.595);
+  transform: scaleY(0);
+}
+
+.card:after {
+  border-top: 3px solid rgba(80, 75, 231, 0.595);
+  border-bottom: 8px rgba(80, 75, 231, 0.595);
+  transform: scaleX(0);
+}
+
+.card:hover:before{
+  transform: scaleY(1);
+}
+
+.card:hover:after{
+  transform: scaleX(1);
+}
+
+/* rotação 3d */
+ .card:hover {
+  transform: rotateY(180deg) translateZ(10px);
+  background-color: rgba(80, 75, 231, 0.595);
+  border-radius: 40px;
+ }
+}

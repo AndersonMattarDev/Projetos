@@ -49,7 +49,7 @@
 }
 
 @media screen and (max-width: 1000px){
-    /* max-width = telas menores que 500px*/
+    /* max-width = telas menores que 1000px*/
   .navbar {
     position: fixed;
     margin: auto;

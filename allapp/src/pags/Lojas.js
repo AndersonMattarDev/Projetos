@@ -1,11 +1,16 @@
 import styles from './Lojas.module.css';
-import imagem from '../components/layout/img/em_construcao.jpg'
+import Card from '../components/Card/index'
 
 function Lojas() {
     return(
         <div className={styles.conteudo}>
-            <h1>Lojas</h1>
-            <img src={imagem} alt='em construção' />
+            <section className={styles.titulo}>
+            <h1>Sejam Bem Vindos</h1>
+            </section>
+           
+           <section className={styles.cards}>
+            <Card />
+            </section>
         </div>
 
     )
