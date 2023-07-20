@@ -61,11 +61,12 @@
    @media screen and (max-width: 1000px){
     /* max-width = telas menores que 1000px*/
   .card {
-    display:flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     flex-direction: column;
     margin-top: 20px;
     justify-content: center;
-    padding: 2em;
+    padding: 1em;
     position: relative;
     transform-style: preserve-3d;
     transition: transform .6s ease-in-out;
@@ -112,4 +113,10 @@
   background-color: rgba(80, 75, 231, 0.595);
   border-radius: 40px;
  }
+
+ .card img {
+  border-radius: 25px;
+  width: 11rem;
+  height: 7rem;
+}
 }

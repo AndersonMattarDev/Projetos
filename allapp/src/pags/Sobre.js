@@ -22,8 +22,8 @@ function Sobre() {
                         Tenho por objetivo mostrar o conhecimento que adquiri em desenvolvimento front-end com React,
                         NodeJs, CSS, JavaScript, Git e Github
                         (na página contato tem o link do meu Github com todos os commits realizados).
-                        Hoje posso me considerar um desenvolvedor front-end, com muito ainda por aprender
-                        mais foco e determinação não me faltam.
+                        Hoje posso me considerar um desenvolvedor front-end, com muito ainda por aprender,
+                        mas foco e determinação não me faltam.
                         Agora começo uma nova jornada rumo ao Fullstack, e se Deus quiser em breve estarei
                         trabalhando com o que mais gosto.... Programação!!!
                     </p>

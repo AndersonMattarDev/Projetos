@@ -1,6 +1,6 @@
 .conteudo {
     background-color: rgb(216, 218, 219);
-    display: flex;
+    display: grid;
     margin-top: 80px;
     flex-direction: column;
     justify-content: flex-start;
@@ -21,6 +21,30 @@
     padding: 0 0.2em;
 }
 
+.conteudo img {
+  border-radius: 100%;
+  width: 28rem;
+  height: 25rem;
+}
+
+.contactsContainer {
+  display: flex;
+}
+
+.links {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.imageContainer {
+  flex: 1;
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 25rem;
+  opacity: 0.4;
+}
+
 
 @media screen and (max-width: 1000px){
     /* max-width = telas menores que 1000px*/
@@ -38,6 +62,33 @@
 
   .conteudo a span {
     font-size: 1.2em;
+  }
+
+  .contactsContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .links {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .imageContainer {
+    flex: 1;
+    opacity: 0.4;
+    order: 2;
+    position: absolute;
+    top: 35rem;
+    left: -23rem;
+  
+  }
+
+  .conteudo img {
+    border-radius: 100%;
+    width: 20rem;
+    height: 15rem;
   }
 }
 

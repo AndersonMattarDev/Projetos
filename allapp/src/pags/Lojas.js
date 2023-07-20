@@ -10,7 +10,7 @@ function Lojas() {
            
            <section className={styles.cards}>
             <Card />
-           
+            <Card />
             </section>
         </div>
 

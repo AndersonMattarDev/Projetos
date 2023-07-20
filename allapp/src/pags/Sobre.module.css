@@ -40,11 +40,12 @@
 
 .conteudo h1 {
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   font-size: 1em;
-   width: 170px;
+   font-size: 3em;
+   width: auto;
+   white-space: nowrap;
    justify-content: center;
    margin-top: 100px;
-   margin-bottom: 50px;
+   margin-bottom: 40px;
    align-items: center;
    border: #222;
    border-radius: 15px;
