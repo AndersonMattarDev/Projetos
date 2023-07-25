@@ -1,5 +1,6 @@
 import styles from './Lojas.module.css';
 import Card from '../components/Card/index'
+import CardCida from '../components/Card/cardCida'
 
 function Lojas() {
     return(
@@ -10,7 +11,7 @@ function Lojas() {
            
            <section className={styles.cards}>
             <Card />
-            <Card />
+            <CardCida />
             </section>
         </div>
 

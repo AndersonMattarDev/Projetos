@@ -7,6 +7,7 @@ import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 import Message from './pags/Message';
 import Artesanato from './pags/Lojas/Artesanato';
+import DeliciasCida from './pags/Lojas/DeliciasCida'
 
 function App() {
   return (
@@ -38,6 +39,10 @@ function App() {
 
         <Route exact path="/artesanato">
           <Artesanato />
+        </Route>
+
+        <Route exact path="/deliciascida">
+          <DeliciasCida />
         </Route>
       </Switch>
       <Footer />
