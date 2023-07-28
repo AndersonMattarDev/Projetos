@@ -15,7 +15,7 @@ function Delicias () {
     return(
         <section className={styles.container}>
             <h1> <span>< FaRegHandPointRight/></span> Delicias da Cida - Faça sua encomenda!</h1>
-            <p><span> <FaWhatsapp /></span> 032 98463-8048</p>
+            <p><span> <FaWhatsapp /></span> 11 95119-7671</p>
            <DeliciasCard image={imagem1} title="Kits salgados variados/100 unidades" price="R$ 60,00" />
            <DeliciasCard image={imagem2} title="Salgados fescos e deliciosos" price="Experimente!" />
            <DeliciasCard image={imagem3} title="Tudo feito com amor e cuidado" price="Sabor de casa!" />

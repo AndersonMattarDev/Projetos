@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './cardCida.module.css';
-import imagem from '../layout/img/arteLucas02.jpeg';
+import imagem from '../layout/img/logoAntiga.png';
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 function CardCida() {
   return (
