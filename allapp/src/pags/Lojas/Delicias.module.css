@@ -24,6 +24,7 @@
 
 .container span {
     color: #5324d3;
+    font-size: 3rem;
 }
 
 .container p {
@@ -31,6 +32,15 @@
     text-align: center;
     font-size: 2rem;
     margin-top: 0;
+}
+
+.container a {
+    grid-column: 1 / -1;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
 }
 
 .card {
@@ -184,6 +194,11 @@
     font-size: 1.3rem;
     margin-left: 6rem;
     white-space: nowrap;
+}
+
+.container a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
  }

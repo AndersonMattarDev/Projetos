@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaWhatsapp, FaRegHandPointRight } from 'react-icons/fa';
+import { FaWhatsapp, FaRegHandPointRight, FaInstagram } from 'react-icons/fa';
 import styles from './Delicias.module.css';
 import imagem1 from './Delicias_Cida/Foto01.jpeg';
 import imagem2 from './Delicias_Cida/Foto02.jpeg';
@@ -16,6 +16,7 @@ function Delicias () {
         <section className={styles.container}>
             <h1> <span>< FaRegHandPointRight/></span> Delicias da Cida - Faça sua encomenda!</h1>
             <p><span> <FaWhatsapp /></span> 11 95119-7671</p>
+            <a href="https://www.instagram.com/deliciasdacidasalgados/"><span><FaInstagram /></span>Instagram Delicias da Cida</a>
            <DeliciasCard image={imagem1} title="Kits salgados variados/100 unidades" price="R$ 60,00" />
            <DeliciasCard image={imagem2} title="Salgados fescos e deliciosos" price="Experimente!" />
            <DeliciasCard image={imagem3} title="Tudo feito com amor e cuidado" price="Sabor de casa!" />
