@@ -149,6 +149,17 @@
     z-index: 2;
 }
 
+.container a {
+    position: relative;
+    margin-left: 4rem;
+    grid-column: 1 / -1;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
 .card img:hover{
     width: 20rem;
     height: 15rem;
@@ -192,7 +203,7 @@
 
 .container p {
     font-size: 1.3rem;
-    margin-left: 6rem;
+    margin-left: 5rem;
     white-space: nowrap;
 }
 

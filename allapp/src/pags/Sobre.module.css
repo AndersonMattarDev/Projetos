@@ -13,6 +13,8 @@
    margin: 2em 0;
    border-radius: 25%;
    flex-shrink: 0;
+   box-shadow:  19px 19px 38px #5a5a5a,
+   -19px -19px 38px #ffffff;
 }
 
 .image_item {

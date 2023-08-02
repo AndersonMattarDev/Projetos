@@ -3,13 +3,13 @@
     width: 150px;
     height: 20px;
     margin-top: 5em;
-    
+    justify-content: center;
+    align-items: center;
     color: #fff;
     padding: 0.7em 1.2em;
     text-decoration: none;
     transition: .5s;
     cursor: pointer;
-    
     border-radius: 5px;
 }
 

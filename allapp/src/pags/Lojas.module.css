@@ -3,7 +3,9 @@
     margin: 0 auto;
     align-items: center;
     display: flex;
-    min-height: 100vh; 
+    min-height: 100vh;
+    box-shadow:  19px 19px 38px #5a5a5a,
+    -19px -19px 38px #ffffff;
 }
 
 .titulo {
@@ -19,6 +21,11 @@
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
+}
+
+.cards img {
+    box-shadow:  19px 19px 38px #5a5a5a,
+    -19px -19px 38px #ffffff;
 }
 
 .titulo p {
