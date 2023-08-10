@@ -6,6 +6,23 @@
     padding: 4rem;
 }
 
+.live {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background-color: #fa3232;
+    animation: pulse 1500ms infinite;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: #f33232;
+    }
+    75% {
+        box-shadow: #e92323 00 0 16px;
+    }
+}
+
 .home_container img {
     width: 150px;
     margin: 2em 0;
