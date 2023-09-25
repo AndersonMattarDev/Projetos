@@ -5,10 +5,16 @@
     min-height: 100vh;
 }
 
-.contact_container h1{
+.titulo{
     margin-bottom: 0.5em;
+    font-family: Skranji;
+    text-align: center;
+    font-size: 20pt;
 }
 
-.contact_container p{
+
+.txt{
+    text-align: center;
+    font:bold 16pt Arial;
     color: #7b7b7b;
 }

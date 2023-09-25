@@ -8,8 +8,9 @@
     box-shadow: 0 0 5px 0px #e2e2e2;
     position: relative;
     transform-style: preserve-3d;
-    transition: transform .6s ease-in-out;
+    transition: transform 2s ease-in-out;
   }
+
 
   .card img {
     border-radius: 40px;
@@ -27,7 +28,7 @@
     top: 0;
     left: 0;
     right: 0;
-    transition: transform .6s ease-in-out;
+    transition: transform .10s ease-in-out;
     pointer-events: none;
   }
 
@@ -53,10 +54,12 @@
 
   /* rotação 3d */
    .card:hover {
-    transform: rotateY(180deg) translateZ(10px);
+    transform: rotateY(360deg) translateZ(10px);
     background-color: rgba(80, 75, 231, 0.595);
     border-radius: 40px;
    }
+
+   
 
    @media screen and (max-width: 1000px){
     /* max-width = telas menores que 1000px*/

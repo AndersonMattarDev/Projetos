@@ -5,7 +5,7 @@ import CardCida from '../components/Card/cardCida'
 function Lojas() {
     return(
         <div className={styles.conteudo}>
-            <section className={styles.titulo}>
+            <section className={styles.titulo}> 
             <p className={styles.typingAnimation}>Mostre seus produtos aqui, e faça bons negócios! </p>
             </section>
            
