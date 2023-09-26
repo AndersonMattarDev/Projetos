@@ -10,7 +10,7 @@ function Home() {
         <section className={styles.home_container}>
             <h1>Alltech <span>Soluções em Tecnologia</span></h1>
             <div className={styles.live}></div>
-            <p>Precisa de uma solução para seu negocio? Você está no lugar certo!</p>
+            <p className={styles.solucao}>Precisa de uma solução para seu negocio? Você está no lugar certo!</p>
 
             <ul>
                 <li className={styles.image_item}>

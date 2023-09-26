@@ -1,5 +1,5 @@
 .form{
-    width: 100%;
+    width: 100%; 
     margin: 2em 0;
     display: flex;
     justify-content: center;
@@ -15,7 +15,7 @@
     font: bold 12pt Arial;
     margin-top: 10px;
     margin-left: 12rem;
-    box-shadow: 10px 10px 10pxrgb(168, 167, 167) ;
+    box-shadow: 10px 10px 10px rgb(168, 167, 167) ;
 }
 
 .btn:hover{
@@ -75,3 +75,106 @@
     box-shadow: 10px 10px 10px rgb(168, 167, 167);
 }
 
+.message{
+    font: bold 16pt Arial;
+    background-color: #9ce28d;
+    color: rgb(98, 110, 87);
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgb(168, 167, 167);
+}
+
+@media screen and (max-width: 1000px){
+    /* max-width = telas menores que 1000px*/
+
+    .form{
+        width: 90%; 
+        margin:0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;    }
+
+    .name {
+        width: 100%;
+        height: 20px;
+        max-width: 250px;
+        border: 1px solid #000;
+        margin:0 auto;
+        text-align: center;
+        margin-bottom: 2em;
+        border-radius: 5px;
+        font-size: 20px;
+        color: #454744;
+        background-color: #f3f8f5;
+        border-color: #eaf8ee;
+        box-shadow: 10px 10px 10px rgb(168, 167, 167);
+    }
+
+    .email {
+        width: 100%;
+        max-width: 250px;
+        padding: 0.5em;
+        border: 1px solid #000;
+        margin:0 auto;
+        text-align: center;
+        margin-bottom: 2em;
+        border-radius: 5px;
+        font-size: 20px;
+        color: #454744;
+        background-color: #f3f8f5;
+        border-color: #eaf8ee;
+        box-shadow: 10px 10px 10px rgb(168, 167, 167);
+    }
+    
+    .txt {
+        width: 250px;
+        max-width: 250px;
+        height: 10rem;
+        border: 1px solid #000;
+        margin:0 auto;
+        text-align: center;
+        margin-bottom: 2em;
+        border-radius: 5px;
+        font-size: 20px;
+        color: #454744;
+        background-color: #f3f8f5;
+        border-color: #eaf8ee;
+        box-shadow: 10px 10px 10px rgb(168, 167, 167);
+    }
+    
+    .message{
+        max-width: 250px;
+        font: bold 16pt Arial;
+        background-color: #9ce28d;
+        color: rgb(98, 110, 87);
+        margin:0 auto;
+        justify-content: center;
+        text-align: center;
+        border-radius: 15px;
+        box-shadow: 10px 10px 10px rgb(168, 167, 167);
+    }
+
+    .btn {
+        width: auto;
+        max-width: 250px;
+        height: 40px;
+        border-radius: 15px;
+        background-color: rgb(98, 96, 243);
+        color: aliceblue;
+        font: bold 12pt Arial;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin:0 auto;
+        box-shadow: 10px 10px 10pxrgb(168, 167, 167) ;
+    }
+    
+    .btn:hover{
+        width: 150px;
+        height: 60px;
+        border-radius: 15px;
+        background-color: #6cb95d;
+        margin-left: 10rem;
+        box-shadow: 10px 10px 10px rgb(168, 167, 167) ;
+    }
+}

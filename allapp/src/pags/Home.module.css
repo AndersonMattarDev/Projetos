@@ -1,9 +1,23 @@
 .home_container {
     background-color: rgb(216, 218, 219);
+    width: 100%;
+    top: 0;
+    left: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; 
     padding: 4rem;
+}
+
+.solucao{
+    width: 120vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    border: #222;
+    border-radius: 10px;
+    background-color: #222;
+    color: aliceblue;
+    padding: 0 2em; 
 }
 
 .live {
@@ -49,6 +63,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.5rem;
     color: #222;
+    
 }
 
 .home_container li {
@@ -75,18 +90,10 @@
     font-size: 1.7rem;
     padding: 0 0.2em;
     background-color: #222;
-    border-radius: 25px;
+    border-radius: 10px;
 }
 
-.home_container p {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 2rem;
-    border: #222;
-    border-radius: 15px;
-    background-color: #222;
-    color: aliceblue;
-    padding: 0 2em;
-}
+
 
 
 @media screen and (max-width: 1000px){

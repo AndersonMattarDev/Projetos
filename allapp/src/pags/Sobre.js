@@ -4,7 +4,7 @@ import imagem2 from '../components/layout/img/logoAlltech.jpeg'
 
 function Sobre() {
     return (
-        <div className={styles.conteudo}>
+        <div className={styles.conteudo}> 
 
             <h1>Sobre o Desenvolvedor</h1>
 
