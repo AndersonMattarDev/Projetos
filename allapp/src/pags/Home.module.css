@@ -1,6 +1,7 @@
 .home_container {
     background-color: rgb(216, 218, 219);
-    width: 100%;
+    width: auto;
+    min-height: 100vh; 
     top: 0;
     left: 0;
     display: flex;
@@ -98,10 +99,12 @@
 
 @media screen and (max-width: 1000px){
     /* max-width = telas menores que 1000px*/
-  .home_container {
-    margin: auto;
-    width: auto;
-    padding: 5em;
+  .home_container { 
+    margin: auto;    
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100vh;
+    
   }
 
   .home_container h1 {
@@ -119,9 +122,10 @@
     color: #aa6c08;
 }
 
-.home_container p {
+.solucao {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.3rem;
+    width: auto;
     border: #222;
     border-radius: 15px;
     background-color: #222;
@@ -130,7 +134,7 @@
 }
 
 .home_container img {
-    width: 70px;
+    width: 65px;
     margin: 1em 1em;
     border-radius: 25%;
     flex-shrink: 0;

@@ -6,7 +6,7 @@ import styles from './Home.module.css';
 
 function Home() {
     return (
-
+ 
         <section className={styles.home_container}>
             <h1>Alltech <span>Soluções em Tecnologia</span></h1>
             <div className={styles.live}></div>
