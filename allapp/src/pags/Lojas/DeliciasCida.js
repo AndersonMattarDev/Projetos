@@ -9,6 +9,7 @@ import imagem5 from './Delicias_Cida/Foto09.jpeg';
 import imagem6 from './Delicias_Cida/Foto10.jpeg';
 import imagem7 from './Delicias_Cida/Foto11.jpeg';
 import imagem8 from './Delicias_Cida/bandeiras.png';
+import imagem9 from './Delicias_Cida/banner.jpg';
 
 
 function Delicias () {
@@ -25,6 +26,7 @@ function Delicias () {
            <DeliciasCard image={imagem6} title="Não perca tempo" price="Peça já!!!" />
            <DeliciasCard image={imagem7} title="Salgados sequinhos e crocantes!" price="Uma saborosa opção" />
            <DeliciasCard image={imagem8} title="Pagamento rápido e seguro!" price="aceitamos todos os cartões!" />
+           <DeliciasCard image={imagem9} title="Novidade!" price="Peça e receba em casa!" />
         </section>
     )
 }
